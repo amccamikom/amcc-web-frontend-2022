@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(160, 206, 236);
+    font-family: sans-serif;
+}
+.kotak {
+    width: 500px;
+    background-color: white;
+    border-radius: 12px;
+    margin: 80px auto;
+    padding: 30px 30px;
+}
+h1 {
+    text-align: center;
+}
+.form {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.button-submit {
+    padding: 12px 24px;
+    background: rgb(22, 121, 167);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+}
