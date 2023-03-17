@@ -4,56 +4,49 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Pelatihan minggu ke 2</title>
-		<link rel="stylesheet" href="style.css" />
+		<title>pelatihan pertama</title>
 	</head>
 	<body>
-		<div class="kotak">
-			<h1>Formulir Pendaftaran</h1>
-			<form>
-				<!--Membuat Input Email -->
-				<label for="email">Email :</label> <br />
-				<input
-					type="email"
-					class="form"
-					id="email"
-					placeholder="Masukan Email" />
-				<br />
+		<header>
+			<h1>Yogyakarta</h1>
+			<nav>
+				<ul>
+					<li><a href="#deskripsi">Deskripsi Yogyakarta</a></li>
+					<li>Wisata</li>
+				</ul>
+			</nav>
+		</header>
 
-				<!-- Membuat Input Password -->
-				<label for="password">Password : </label> <br />
-				<input
-					type="password"
-					class="form"
-					id="password"
-					placeholder="Masukan Password" />
-				<br />
+		<main>
+			<article>
+				<h2 id="deskripsi">Deskripsi Yogyakarta</h2>
+				<img src="./image/Tugu Jogja.jpg" alt="tugu jogja" width="500px" />
+				<p>
+					Yogyakarta atau dikenal oleh masyarakat setempat dengan nama Jogja
+					atau Yogya adalah ibu kota sekaligus pusat pemerintahan dan
+					perekonomian dari Daerah Istimewa Yogyakarta, Indonesia. Kota ini
+					adalah kota besar yang mempertahankan konsep tradisional dan budaya
+					Jawa.
+				</p>
+			</article>
 
-				<!-- Membuat Input Date -->
-				<label for="date">Tanggal Lahir : </label> <br />
-				<input type="date" class="form" id="date" /> <br />
+			<article>
+				<h2>Wisata</h2>
+				<p>
+					Terdapat banyak wisata di Yogyakarta, dan salah satu yang terfavorit
+					dan iconic yaitu Malioboro.
+				</p>
 
-				<!-- Membuat Pilihan Gander -->
-				<p>Jenis Kelamin</p>
-
-				<input type="radio" id="man" name="gender" />
-				<label for="man">Laki Laki</label> <br />
-
-				<input type="radio" id="women" name="gender" />
-				<label for="women">Perempuan</label> <br />
-
-				<!-- Membuat Input Alamat -->
-				<label for="alamat">Alamat :</label><br />
-				<textarea
-					name="alamat"
-					id="alamat"
-					cols="30"
-					rows="10"
-					class="form"></textarea>
-				<br />
-
-				<button type="submit">Daftar</button>
-			</form>
-		</div>
+				<h3>Malioboro</h3>
+				<img src="./image/maliboro.jpg" alt="" width="500px" />
+				<p>
+					Jalan Malioboro adalah nama salah satu kawasan jalan dari tiga jalan
+					di Kota Yogyakarta yang membentang dari Tugu Yogyakarta hingga ke
+					persimpangan Titik Nol Kilometer Yogyakarta. Secara keseluruhan,
+					kawasan Malioboro terdiri atas Jalan Margo Utomo, Jalan Malioboro, dan
+					Jalan Margo Mulyo.
+				</p>
+			</article>
+		</main>
 	</body>
 </html>
