@@ -1,31 +1,47 @@
 body {
-    background-color: deepskyblue;
-    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    text-align: center;
+.logo-image {
+    width: 254.98px;
+    height: 59.92px;
 }
 
-.kotak {
-    background-color: white;
-    width: 500px;
-    margin: 80px auto;
-    padding: 30px 30px;
-    border-radius: 20px;
+.nav-link a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #4E424C;
 }
 
-.form {
-    margin-bottom: 10px;
-    width: 100%;
-    padding: 8px;
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
 }
 
-button {
-    background-color: coral;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 6px;
-    width: 100%;
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
 }
