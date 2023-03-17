@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pelatihan minggu ke 2</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="kotak">
+			<h1>Formulir Pendaftaran</h1>
+			<form>
+				<!--Membuat Input Email -->
+				<label for="email">Email :</label> <br />
+				<input
+					type="email"
+					class="form"
+					id="email"
+					placeholder="Masukan Email" />
+				<br />
+
+				<!-- Membuat Input Password -->
+				<label for="password">Password : </label> <br />
+				<input
+					type="password"
+					class="form"
+					id="password"
+					placeholder="Masukan Password" />
+				<br />
+
+				<!-- Membuat Input Date -->
+				<label for="date">Tanggal Lahir : </label> <br />
+				<input type="date" class="form" id="date" /> <br />
+
+				<!-- Membuat Pilihan Gander -->
+				<p>Jenis Kelamin</p>
+
+				<input type="radio" id="man" name="gender" />
+				<label for="man">Laki Laki</label> <br />
+
+				<input type="radio" id="women" name="gender" />
+				<label for="women">Perempuan</label> <br />
+
+				<!-- Membuat Input Alamat -->
+				<label for="alamat">Alamat :</label><br />
+				<textarea
+					name="alamat"
+					id="alamat"
+					cols="30"
+					rows="10"
+					class="form"></textarea>
+				<br />
+
+				<button type="submit">Daftar</button>
+			</form>
+		</div>
+	</body>
+</html>
