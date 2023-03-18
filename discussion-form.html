@@ -15,50 +15,51 @@
 </head>
 
 <body>
-
   <div class="main-content container d-flex align-items-center justify-content-center">
     <div class="row container justify-content-center">
       <div class="d-flex flex-column text-start col-sm-5 col-9">
         <a class="navbar-brand" href="#">
           <img src="./img/logo.png" alt="logo-discussme" class="navbar-logo" />
         </a>
-        <p class="fs-3 fw-bold my-3">Register.</p>
+        <p class="fs-3 fw-bold my-3">Buat Pertanyaan</p>
 
+        <!-- MEMBUAT FORM  -->
         <form>
-          <!-- NAMA -->
+          <!-- JUDUL -->
           <div class="mb-4">
-            <label for="inputNama" class="form-label fs-5 text-secondary">Nama :</label>
-            <input type="text" class="form-control bg-light p-3" id="inputNama" aria-describedby="namaInput"
-              placeholder="Masukkan nama">
+            <label for="inputJudul" class="form-label fs-5 text-secondary">Judul :</label>
+            <input type="text" class="form-control bg-light p-3" id="inputJudul" aria-describedby="namaInput"
+              placeholder="Judul Pertanyaan">
           </div>
 
-          <!-- EMAIL -->
+          <!-- DESKRIPSI -->
           <div class="mb-4">
-            <label for="inputEmail" class="form-label fs-5 text-secondary">Email :</label>
-            <input type="email" class="form-control bg-light p-3" id="inputEmail" aria-describedby="emailHelp"
-              placeholder="Masukkan email">
+            <label for="inputDeskripsi" class="form-label fs-5 text-secondary">Deskripsi :</label>
+            <textarea class="form-control bg-light" rows="5" placeholder="Deskripsi pertanyaan"
+              id="inputDeskripsi"></textarea>
           </div>
 
-          <!-- PASSWORD -->
-          <div class="mb-4">
-            <label for="inputPassword" class="form-label fs-5 text-secondary">Password :</label>
-            <input type="password" class="form-control bg-light p-3" id="inputPassword" placeholder="Masukkan password">
-          </div>
-
-          <!-- FOTO -->
+          <!-- APLOUD FOTO -->
           <div class="mb-4">
             <label for="inputFoto" class="form-label fs-5 text-secondary">Foto :</label>
             <input type="file" class="form-control bg-light p-3" id="inputFoto">
           </div>
 
+          <!-- TAG -->
+          <div class="mb-4">
+            <label for="inputTag" class="form-label fs-5 text-secondary">Tag :</label>
+            <input type="text" class="form-control bg-light p-3" id="inputTag" aria-describedby="namaInput"
+              placeholder="Ex: PHP , HTML">
+          </div>
 
           <!-- SUBMIT -->
-          <button type="submit" class="btn button-form py-2 px-5 fw-bold">Register</button>
+          <button type="submit" class="btn  button-form py-2 px-5 fw-bold">Submit</button>
         </form>
+
       </div>
     </div>
   </div>
- 
+  <!--!TODO: Implement Card Profile component right here-->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
