@@ -25,7 +25,7 @@ Bisa bertanya di grup divisi, ataupun PC kakak Instruktur🙎‍♂️🙎‍♀
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/irfan-ramadhani-a60527214/"><img src="https://user-images.githubusercontent.com/84772741/225959850-e3c5ada3-6485-432e-922c-b6deb4807186.jpg" width="100px;" alt=""/><br/>Irfan</td>
       <td align="center"><a href="https://www.linkedin.com/in/ainnadias/"><img src="https://user-images.githubusercontent.com/84772741/225959988-3e8d1a97-82e1-4717-a6e1-4157a8944f3a.jpg" width="100px;" alt=""/><br/>Nadia</td>
-    <td align="center"><a href="https://www.linkedin.com/in/deni-wijaya-321b89220/"><img src="https://user-images.githubusercontent.com/84772741/225960096-f5e92c63-a8f6-4f8a-bf79-ed6b1de74c3a.jpg" width="100px;" alt=""/><br/>Deni</td>
+    <td align="center"><a href="https://www.linkedin.com/in/deni-wijaya-321b89220/"><img src="https://media.licdn.com/dms/image/D5603AQFFoIa0U4kRXg/profile-displayphoto-shrink_800_800/0/1678814180052?e=1684972800&v=beta&t=RozK_yzKB3JgTjPyAiPoJm0ncE-uzaNqvX0d_sGmwbI" width="100px;" alt=""/><br/>Deni</td>
      <td align="center"><a href=""><img src="https://user-images.githubusercontent.com/84772741/225960260-8266894e-a9ac-4731-9eff-231391389b40.jpg" width="100px;" alt=""/><br/>Zulfa</td>
      <td align="center"><a href=""><img src="https://user-images.githubusercontent.com/84772741/225960393-9c5eec9f-5c83-4bbd-afdd-e2a400208450.jpg" width="100px;" alt=""/><br/>Megan</td>
      <td align="center"><a href=""><img src="https://user-images.githubusercontent.com/84772741/225960464-4ffea0d3-43b1-45d2-895e-aa8b154cda49.jpg" width="100px;" alt=""/><br/>Shella</td>
