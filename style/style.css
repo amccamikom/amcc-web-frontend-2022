@@ -1,0 +1,39 @@
+:root{
+    --primary: #c075ea;
+    --secondary:#F7E4FF;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+h1,h2,h3,h4,h5,p,a {
+    margin: 0;
+  }
+
+  .primary-bg{
+    background-color: var(--primary);
+  }
+
+  .secondary-bg{
+    background-color: var(--secondary);
+  }
+
+  .primary-color{
+    color: var(--primary);
+  }
+
+  .secondary-color{
+    color: var(--secondary);
+  }
+
+  .username{
+    font-size: 13px;
+  }
+
+  .hashtag{
+    background-color: var(--secondary);
+    color: var(--primary);
+  }
