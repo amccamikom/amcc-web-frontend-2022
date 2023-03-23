@@ -1,13 +1,10 @@
-/*Import Font from Google font*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
-
 body {
   font-family: "Inter", sans-serif;
 }
 
 
 /* Sidebar Menu */
-.main-content{
+.main-content {
   height: 100vh;
 }
 
@@ -18,7 +15,7 @@ body {
 }
 
 /* Color Class (form button) */
-.button-form{
-  color : #c075ea;
+.button-form {
+  color: #c075ea;
   background-color: #F7E4FF;
 }
