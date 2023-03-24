@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="assets/favicon.svg" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="col-10">
+          <a href="#" class="navbar-brand">
+            <img src="assets/logo.png" alt="" width="250" height="80" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-2 navbar-collapse collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Diskusiku</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="main-content container py-4">
+      <div class="row">
+        <div class="sidebar col-sm-3">
+          <div class="card rounded shadow d-flex flex-column gap-4 px-4 py-5 border-0">
+            <div class="d-flex rounded gap-2">
+              <img src="assets/profile.png" alt="" height="38" />
+              <p class="fs-5">Profil</p>
+            </div>
+            <div class="d-flex rounded gap-2 bg-pink">
+              <img src="assets/askSolid.svg" alt="" />
+              <p class="fs-5">Semua</p>
+            </div>
+            <div class="d-flex rounded gap-2">
+              <img src="assets/done.png" alt="" height="38" />
+              <p class="fs-5">Terjawab</p>
+            </div>
+            <div class="d-flex rounded gap-2">
+              <img src="assets/pending.png" alt="" height="38" />
+              <p class="fs-5">Pending</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content col-sm-9">
+          <div class="row justify-content-end">
+            <button class="add-question text-white border-0 rounded py-1 px-2 bg-ungu col-sm-2 col-4 my-3">+ Pertanyaan</button>
+          </div>
+          <div class="card rounded shadow border-0 p-4">
+            <div class="row gap-3 gap-sm-0">
+              <div class="col-sm-3 order-sm-1 order-2">
+                <img src="assets/code1.png" alt="" class="img-fluid" />
+              </div>
+              <div class="col-sm-9 order-sm-2 order-1">
+                <div class="d-flex gap-2">
+                  <img src="assets/photoProfile.png" alt="" width="37" height="37" />
+                  <div>
+                    <p class="fw-medium">Malik Fajar</p>
+                    <p class="text-secondary username">@fajarmalik</p>
+                  </div>
+                </div>
+                <p class="fs-4 fw-bold">Bagaimana cara untuk initialize decoder untuk dummy data</p>
+                <p class="fs-5 text-secondary">Bagaimana cara untuk inisialisasi data "machine" itu untuk keperluan dummy data</p>
+                <div class="d-flex flex-sm-row flex-column justify-content-between">
+                  <div class="d-flex gap-4">
+                    <p class="rounded text-ungu bg-pink p-1">#fetchapi</p>
+                    <p class="rounded text-ungu bg-pink p-1">#json</p>
+                    <p class="rounded text-ungu bg-pink p-1">#javascript</p>
+                  </div>
+                  <div class="d-flex gap-4">
+                    <div class="d-flex gap-2 align-items-center bg-pink rounded px-2">
+                      <img src="assets/comment.svg" alt="" width="21" />
+                      <p class="text-ungu">68 <span class="text-secondary">Komentar</span></p>
+                    </div>
+                    <div class="d-flex gap-2 align-items-center bg-pink rounded px-2">
+                      <img src="assets/like.svg" alt="" width="21" />
+                      <p class="text-ungu">125 <span class="text-secondary">Like</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
