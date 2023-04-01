@@ -33,3 +33,28 @@ a {
 .username {
   font-size: 13px;
 }
+
+
+/* icon sizing */
+
+.like-icon img,
+.comment-icon img {
+  width: 20px;
+}
+
+.profile-image {
+  height: 200px;
+  margin-bottom: 150px;
+}
+
+.profile-image img{
+  top: 100%;
+  height: 250px;
+  width: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-icon {
+  width: 60px;
+}
