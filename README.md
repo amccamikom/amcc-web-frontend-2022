@@ -1,10 +1,10 @@
-# PELATIHAN 5 WEB FRONT END AMCC
+# PELATIHAN 6 WEB FRONT END AMCC
 
 ## Hallo teman teman member🫰🏻
 Ini adalah Branch Dokumentasi dari pelatihan 4 WEB FRONT END AMCC🔥
 
-## MATERI PERTEMUAN 5 📖
-https://drive.google.com/file/d/16auOW82yjYo79fZrcytLmmgt_8t9Gpa6/view?usp=sharing
+## MATERI PERTEMUAN 6 📖
+https://drive.google.com/file/d/1cvv8wdfTV-r__sxfwqDxDr2qeN5OM4Ik/view
 
 ## KENDALA BELAJAR🤝
 Buat teman teman yang kesulitan dalam belajar, jangan sungkan untuk selalu bertanya yaa😊
