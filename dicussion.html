@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+    <!-- navbar start -->
     <nav class="navbar navbar-expand-lg">
         <div class="container container-sm">
             <div class="col-10">
@@ -29,16 +29,23 @@
             </button>
             <div class="col-2 navbar-collapse collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Diskusiku</a></li>
+                    <li class="nav-item mx-2"><a href="./dicussion.html" class="nav-link">Home</a></li>
+                    <li class="nav-item mx-2"><a href="./details.html" class="nav-link">Diskusiku</a></li>
+                    <li class="nav-item mx-2">
+                        <a href="./login.html">
+                            <button type="button" class="btn bg-pink">Login</button>       
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- navbar end -->
 
     <!-- CONTENT -->
     <div class="main-content container container-sm py-4">
         <div class="row">
+            <!-- sidebar start -->
             <div class="sidebar col-lg-3">
                 <div class="card rounded border-0 shadow ">
                     <div class="card-body d-flex flex-column gap-3 py-5 px-4">
@@ -75,11 +82,13 @@
                     </div>
                 </div>
             </div>
+            <!-- sidebar end -->
 
             <div class="content col-sm-9">
-                <div class="row container justify-content-end mt-4 mt-md-0">
-                    <button class="add-question text-white border-0 rounded py-2 px-2 bg-ungu col-sm-2 col-4 mb-3">+
-                        Pertanyaan</button>
+                <div class="row container flex justify-content-end mt-4 mt-md-0">
+                    <a href="./discussion-form.html" class="text-decoration-none">
+                        <button class="add-question text-white border-0 rounded py-2 px-2 bg-ungu col-sm-2 col-4 mb-3">+Pertanyaan</button>
+                    </a>
                 </div>
                 <!-- pertanyaan -->
                 <a href="./details.html" class="text-decoration-none">

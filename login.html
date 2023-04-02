@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>DiscussMe</title>
+    <title>Login - DiscussMe</title>
     <!--Import CDN From bootstrap 5.3-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -18,12 +18,40 @@
   </head>
 
   <body>
+        <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container container-sm">
+            <div class="col-10">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/image/logo.png" alt="" width="250" height="80">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-2 navbar-collapse collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-2"><a href="./dicussion.html" class="nav-link">Home</a></li>
+                    <li class="nav-item mx-2"><a href="./details.html" class="nav-link">Diskusiku</a></li>
+                    <li class="nav-item mx-2">
+                        <a href="./login.html">
+                            <button type="button" class="btn bg-pink">Login</button>       
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    
     <!--!TODO: implement Navbar component right here!-->
     <div class="main-content container d-flex align-items-center justify-content-center">
       <div class="row container justify-content-center">
         <div class="d-flex flex-column text-start col-sm-5 col-9">
           <a class="navbar-brand" href="#">
-            <img src="./img/logo.png" alt="logo-discussme" class="navbar-logo" />
+            <img src="./assets/image/logo.png" alt="logo-discussme" class="navbar-logo" />
           </a>
           <p class="fs-3 fw-bold my-3">Login.</p>
 
@@ -42,7 +70,8 @@
             </div>
 
             <!-- SUBMIT -->
-            <button type="submit" class="btn button-form py-2 px-5 fw-bold">Login</button>
+            <button type="submit" class="btn button-form py-2 px-5 fw-bold bg-pink">Login</button>
+            <p class="mt-2">Belum mempunyai akun? <a href="./register.html" class="text-pink text-decoration-none">Daftar Sekarang</a></p>
           </form>
         </div>
       </div>

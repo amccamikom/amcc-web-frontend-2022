@@ -18,11 +18,39 @@
   </head>
 
   <body>
+        <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container container-sm">
+            <div class="col-10">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/image/logo.png" alt="" width="250" height="80">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-2 navbar-collapse collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-2"><a href="./dicussion.html" class="nav-link">Home</a></li>
+                    <li class="nav-item mx-2"><a href="./details.html" class="nav-link">Diskusiku</a></li>
+                    <li class="nav-item mx-2">
+                        <a href="./login.html">
+                            <button type="button" class="btn bg-pink">Login</button>       
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
     <div class="main-content container d-flex align-items-center justify-content-center">
       <div class="row container justify-content-center">
         <div class="d-flex flex-column text-start col-sm-5 col-9">
           <a class="navbar-brand" href="#">
-            <img src="./img/logo.png" alt="logo-discussme" class="navbar-logo" />
+            <img src="./assets/image/logo.png" alt="logo-discussme" class="navbar-logo" />
           </a>
           <p class="fs-3 fw-bold my-3">Register.</p>
 
@@ -52,7 +80,7 @@
             </div>
 
             <!-- SUBMIT -->
-            <button type="submit" class="btn button-form py-2 px-5 fw-bold">Register</button>
+            <button type="submit" class="btn button-form py-2 px-5 fw-bold bg-pink">Register</button>
           </form>
         </div>
       </div>

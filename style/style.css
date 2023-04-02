@@ -30,6 +30,13 @@ a {
   background-color: #F7E4FF;
 }
 
+.text-pink{
+  color: #C759F5;
+}
+.text-pink:hover{
+  color: #9F00E2;
+}
+
 .text-ungu {
   color: #c075ea;
 }
