@@ -14,6 +14,14 @@ a {
   margin: 0;
 }
 
+.primary-color {
+  color : #C075EA;
+}
+
+.primary-bg {
+  background-color: #F7E4FF;
+}
+
 .bg-ungu {
   background-color: #c075ea;
 }
@@ -34,6 +42,36 @@ a {
   font-size: 13px;
 }
 
+/* Sidebar Menu */
+.sidebar img {
+  fill : gray;
+}
+
+.register-container{
+  height: 90vh;
+}
+
+.register-container .row {
+  width: 100%;
+}
+
+.menu-profile:hover{
+  color : #C075EA;
+  background-color: #F7E4FF;
+}
+
+.menu-semua:hover{
+    color : #C075EA;
+  background-color: #F7E4FF;
+}
+.menu-terjawab:hover{
+  color : #C075EA;
+  background-color: #F7E4FF;
+}
+.menu-pending:hover{
+  color : #C075EA;
+  background-color: #F7E4FF;
+}
 
 /* icon sizing */
 
