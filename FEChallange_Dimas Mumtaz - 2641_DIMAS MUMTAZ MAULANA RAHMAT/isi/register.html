@@ -1,0 +1,83 @@
+<!-- challenge DImas Mumtaz -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Study Case Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.svg" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container container-sm">
+        <div class="col-10">
+          <a href="" class="navbar-brand">
+            <img src="./img/logo.png" alt="logo" class="navbar-logo" />
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2"><a href="./homee.html" class="nav-link">Home</a></li>
+            <li class="nav-item mx-2"><a href="./details.html" class="nav-link">Diskusiku</a></li>
+            <li class="nav-item mx-2">
+              <a href="./login.html"><button type="button" class="btn bg-pink">Login</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="main-content container d-flex justify-content-center align-items-center">
+      <div class="row container justify-content-center">
+        <div class="d-flex flex-column col-9 col-sm-5 text-start">
+          <a href="" class="navbar-brand">
+            <img src="./img/logo.png" alt="" class="navbar-logo" />
+          </a>
+          <p class="fs-3 fw-bold my-5">Register</p>
+          <form>
+            <!-- nama -->
+            <div class="mb-4">
+              <label for="inputNama" class="form-label fs-5 text-secondary">Nama</label>
+              <input type="text" class="form-control bg-light p-3" id="inputNama" placeholder="Namamu siapa bang?" />
+            </div>
+
+            <!-- email -->
+            <div class="mb-4">
+              <label for="inputEmail" class="form-label fs-5 text-secondary">Email :</label>
+              <input type="email" class="form-control bg-light p-3" id="inputEmail" aria-describedby="emailHelp" placeholder="Jangan lupa emailnya" />
+            </div>
+
+            <!-- PASSWORD -->
+            <div class="mb-4">
+              <label for="inputPassword" class="form-label fs-5 text-secondary">Password :</label>
+              <input type="password" class="form-control bg-light p-3" id="inputPassword" placeholder="Passwordnya jangan admin ya" />
+            </div>
+
+            <!-- FOTO -->
+            <div class="mb-4">
+              <label for="inputFoto" class="form-label fs-5 text-secondary">Foto :</label>
+              <input type="file" class="form-control bg-light p-3" id="inputFoto" />
+            </div>
+
+            <!-- SUBMIT -->
+            <a href="./homee.html" class="btn button-form py-2 px-5 fw-bold bg-pink mb-5">Register</a>
+            <!-- <button type="button" class="btn btn-danger">SUBMIT</button> -->
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

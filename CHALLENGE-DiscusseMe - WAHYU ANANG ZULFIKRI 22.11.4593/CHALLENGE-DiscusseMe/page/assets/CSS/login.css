@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin: 0;
+}
+/* 
+form .form-control {
+  width: 30rem;
+} */
+form .text {
+  padding-top: 0.5rem;
+  font-weight: 400;
+  font-size: 17px;
+}
+.navbar-brand {
+  margin-left: -9px;
+}
+.bg-pink:hover {
+  background-color: #fff !important;
+}
+.bg-pink {
+  background-color: #debdec !important;
+}

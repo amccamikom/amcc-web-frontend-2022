@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Profile</title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section class="py-5 my-5">
+		<div class="container">
+			<h1 class="mb-4" style="color: white;">Data Profile</h1>
+			<div class="bg-white shadow rounded-lg d-block d-sm-flex">
+				<div class="profile-tab-nav border-right">
+					<div class="p-4">
+						<div class="img-circle text-center mb-3">
+							<img src="img/Foto gabut.jpg" alt="Image" class="shadow">
+						</div>
+						<h5 class="text-center mb-0 fw-bold">Muh Nabil Amani</h5>
+						<hr class="m-1 ">
+						<h6 class="text-center mb-2 fst-italic text-primary">D3 Teknik Informatika</h4>
+					</div>
+					<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+						<a class="nav-link active" id="myprofile-tab" data-toggle="pill" href="#myprofile" role="tab" aria-controls="myprofile" aria-selected="true">
+							<i class="fa fa-home text-center mr-1"></i> 
+							Profile
+						</a>
+						<a class="nav-link" id="education-tab" data-toggle="pill" href="#education" role="tab" aria-controls="education" aria-selected="false">
+							<i class="fa fa-graduation-cap text-center mr-1"></i> 
+							Education
+						</a>
+						<a class="nav-link" id="myhobby-tab" data-toggle="pill" href="#myhobby" role="tab" aria-controls="myhobby" aria-selected="false">
+							<i class="fa fa-futbol-o text-center mr-1"></i> 
+							My Hobby
+						</a>
+						<a class="nav-link" id="message-tab" data-toggle="pill" href="#message" role="tab" aria-controls="message" aria-selected="false">
+							<i class="fa fa-comments text-center mr-1"></i> 
+							Message
+						</a>
+						<a class="nav-link" id="community-tab" data-toggle="pill" href="#community" role="tab" aria-controls="community" aria-selected="false">
+							<i class="fa fa-users text-center mr-1"></i> 
+							Community
+						</a>
+					</div>
+				</div>
+				<div class="tab-content p-4 p-md-5" id="v-pills-tabContent">
+					<div class="tab-pane fade show active" id="myprofile" role="tabpanel" aria-labelledby="myprofile-tab">
+						<h3 class="mb-4">My Profile</h3>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+								  	<label>First Name</label>
+								  	<input type="text" class="form-control" value="Nabil">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+								  	<label>Last Name</label>
+								  	<input type="text" class="form-control" value="Amani">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+								  	<label>Email</label>
+								  	<input type="text" class="form-control" value="nabilamani2304@gmail.com">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+								  	<label>Phone number</label>
+								  	<input type="text" class="form-control" value="+62 857-2885-3831">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+								  	<label>Home</label>
+								  	<input type="text" class="form-control" value="Sukoharjo, jawa tengah">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+								  	<label>Age</label>
+								  	<input type="text" class="form-control" value="20 years old">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+								  	<label>Bio</label>
+									<textarea class="form-control" rows="4">Seorang Mahasiswa aktif jurusan D3 Teknik Informatika Universitas semester 2 yang mampu berpikir kreatif, bersikap dewasa, dan berwawasan luas yang mana siap membina anak orang dengan penuh kesetiaan dan ketulusan.</textarea>
+								</div>
+							</div>
+						</div>
+						<div>
+							<button class="btn btn-primary">Simpan</button>
+							<button class="btn btn-light">Batal</button>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+						<h3 class="mb-4">Historical Education</h3>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+								  	<label>Junior High School</label>
+								  	<input type="text" class="form-control" value="SMP Nur Hidayah">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+								  	<label>Senior High School</label>
+								  	<input type="text" class="form-control" value="SMA BQBS">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+								  	<label>Collage (D3-S1)</label>
+								  	<input type="text" class="form-control" value="Amikom University of Yogyakarta">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+								  	<label>Collage (S2)</label>
+								  	<input type="text" class="form-control" value="Bismillah Gadjah Mada University">
+								</div>
+							</div>
+						</div>
+						
+						<div>
+							<button class="btn btn-primary">Simpan</button>
+							<button class="btn btn-light">Batal</button>
+						</div>
+						<p class="text-center mt-4">" Jangan pernah sekalipun meremehkan peran pendidikan bagi dunia. Melalui pendidikan, satu orang dengan sendirinya bisa mengubah dunia ke arah yang jauh lebih baik. Oleh karena itu, selalu berusaha untuk menuntut ilmu yang lebih tinggi dan luas agar kamu mampu menjadikannya sebagai senjata untuk membawa perubahan yang baik kepada dunia. "</p>
+					</div>
+					<div class="tab-pane fade" id="myhobby" role="tabpanel" aria-labelledby="myhobby-tab">
+						<h3 class="mb-4">My Hobby</h3>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="form-group">
+                                    <i class="fa fa-futbol-o text-center mr-1"></i>
+                                    <label>Football</label>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+                                    <i class="fa fa-bicycle text-center mr-1"></i>
+                                    <label>Bicycle</label>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+                                    <i class="fa fa-gamepad text-center mr-1"></i>
+                                    <label>Ngegame</label>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+                                    <i class="fa fa-bed text-center mr-1"></i>
+                                    <label>Turu</label>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+                                    <i class="fa fa-book text-center mr-1"></i>
+                                    <label>Reading</label>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+                                    <i class="fa fa-motorcycle text-center mr-1"></i>
+                                    <label>Touring</label>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+                                    <i class="fa fa-code text-center mr-1"></i>
+                                    <label>Ngoding</label>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="form-group">
+                                    <i class="fa fa-camera text-center mr-1"></i>
+                                    <label>Hunting Foto</label>
+								</div>
+							</div>
+							<p class="text-center mt-3">"Punya banyak hobi itu bagus. Yang nggak bagus itu punya banyak pacar."</p>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="message" role="tabpanel" aria-labelledby="message-tab">
+						<h3 class="mb-4">Testimonial Message</h3>
+						<div class="row">
+							<div class="list">
+								<div class="d-flex flex-column gap-2">
+									
+									<div class="card rounded border-1 shadow overflow-hidden">
+										<div class="card-body d-flex p-0 ">
+											<div class="row p-5">
+				
+												<div class="d-flex align-items-center gap-2">
+													<img src="img/Vector PR.jpg" alt="" style="width:35px;height: 35px;">
+													<div class="">
+														<p class="fw-bold mb-0">Zulfa Fathin</p>
+														<p class="text-secondary mb-0">@zulfathin45</p>
+													</div>
+				
+												</div>
+												<p class="fs-6 text-secondary my-4">"Ketika saya mendapatkan kesempatan untuk belajar membuat front-end web, saya merasa mendapatkan pengetahuan-pengetahuan baru yang sebelumnya saya belum pernah dapatkan. Materi-materi yang diberikan dapat saya terapkan didunia kerja saya nantinya.”</p>
+												<div class="d-flex justify-content-between">
+				
+													<div class="d-flex gap-2 align-items-center">
+														<div class="d-flex bg-light rounded align-items-center px-2 py-1">
+															<p class=" py-1 px-2 text-secondary mb-0"><span class="text-primary fw-bold me-1">9 </span>Balasan
+															</p>
+														</div>
+														<div class="d-flex bg-light rounded align-items-center px-2 py-1">
+															<p class=" py-1 px-2 text-secondary mb-0"><span class="text-primary fw-bold me-1">20</span>Like</p>
+														</div>
+													</div>
+												</div>
+				
+											</div>
+										</div>
+									</div>
+									<div class="card rounded border-1 shadow overflow-hidden">
+										<div class="card-body d-flex p-0 ">
+											<div class="row p-5">
+				
+												<div class="d-flex align-items-center gap-2">
+													<img src="img/DSC00765 (2).jpg" alt="" style="width:35px;height: 35px;">
+													<div class="">
+														<p class="fw-bold mb-0">Arba Aulia Rahma</p>
+														<p class="text-secondary mb-0">@arbauliarahma</p>
+													</div>
+				
+												</div>
+												<p class="fs-6 text-secondary my-4">"All in one untuk fundamental DevOps-nya dapet banget, tinggal explore lagi sendiri. Terlebih diajarkan hands-on dan contoh project. Tidak lupa dengan penggunaan IBM Cloud sebagai pengganti dan alternatif opsi melakukan DevOps di cloud selain menggunakan local machine."</p>
+												<div class="d-flex justify-content-between">
+				
+													<div class="d-flex gap-2 align-items-center">
+														<div class="d-flex bg-light rounded align-items-center px-2 py-1 ">
+															<p class="py-1 px-2 text-secondary mb-0"><span class="text-primary fw-bold me-1">15 </span>Balasan
+															</p>
+														</div>
+														<div class="d-flex bg-light rounded align-items-center px-2 py-1">
+															<p class="py-1 px-2 text-secondary mb-0"><span class="text-primary fw-bold me-1">45</span>Like</p>
+														</div>
+													</div>
+												</div>
+				
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="community" role="tabpanel" aria-labelledby="community-tab">
+						<h3 class="mb-4">Followed Community</h3>
+						<div class="form-group">
+							<div class="form-list-community">
+								<ul style="list-style: none; padding-left: 1rem;">
+                                    <li><i class="fa fa-dot-circle-o mr-2 text-primary" aria-hidden="true"></i>AMCC</li>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, veritatis incidunt amet quod suscipit labore!</p>
+                                    <li><i class="fa fa-dot-circle-o mr-2 text-primary" aria-hidden="true"></i>IRMAS At-Taqwa</li>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, veritatis incidunt amet quod suscipit labore!</p>
+                                    <li><i class="fa fa-dot-circle-o mr-2 text-primary" aria-hidden="true"></i>IMADIKOM</li>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, veritatis incidunt amet quod suscipit labore!</p>
+                                    <li><i class="fa fa-dot-circle-o mr-2 text-primary" aria-hidden="true"></i>Lingkar Qur'an Center</li>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, veritatis incidunt amet quod suscipit labore!</p>
+                                    <li><i class="fa fa-dot-circle-o mr-2 text-primary" aria-hidden="true"></i>Karpawe</li>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, veritatis incidunt amet quod suscipit labore!</p>
+                                </ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/*Import Font from Google font*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin: auto;
+}
+
+/* Color Class (form button) */
+.button-form{
+  color : #c075ea;
+  background-color: #F7E4FF;
+}
+
+a.tbl-biru {
+    background: #8758FF;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin: auto;
+    padding: 10px 15px 10px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.tbl-biru:hover {
+    background: #FF74B1;
+    text-decoration: none;
+}
+
+/* disccuss */
+
+.bg-ungu {
+  background-color: #c075ea;
+}
+
+.bg-pink {
+  background-color: #F7E4FF;
+}
+
+.text-ungu {
+  color: #c075ea;
+}
+
+.text-pink {
+  color: #F7E4FF;
+}
+
+.navbar-nav
+{
+  display: flex;
+  column-gap: 1.3rem;
+}

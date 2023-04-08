@@ -1,0 +1,969 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    margin-top: 10px;
+    
+
+}
+.nav-container .nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-container .nav-content .img-logo{
+    position: relative;
+    width: 307.87px;
+height: 95.51px;
+
+display:  flex;
+align-items: center;
+border-radius: 11.4733px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+.nav-container .nav-content .img-logo h3{
+    position: absolute;
+width: 172.15px;
+height: 47.53px;
+left: 82.83px;
+top: 27.86px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 31.1828px;
+line-height: 38px;
+
+/* purp */
+
+color: #CD57FF;
+}
+
+.nav-container .nav-content ul{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-container .nav-content ul li{
+    list-style-type: none;
+    padding: 7px;
+    margin: 10px;
+}
+
+.nav-container .nav-content ul li a{
+    width: 45px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-decoration: none;
+
+/* Text */
+
+color: #4E424C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.nav-container .nav-content ul .login{
+    background: #F7E4FF;
+    transition: 2.ms;
+    border-radius: 6px;
+}
+
+.nav-container .nav-content ul  .login:hover {
+    background:#ffff !important;
+    color: rgb(52, 52, 233);
+}
+
+.card-menu .card{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 39px 34px;
+gap: 19px;
+
+position: absolute;
+width: 280px;
+height: 367px;
+left: 112px;
+top: 166px;
+
+background: #ffffff;
+box-shadow: 0px 35px 44px rgba(0, 0, 0, 0.05);
+border-radius: 24px;
+}
+
+/* .card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    
+    width: 212px;
+    height: 58px;
+    
+    background: #c21919;
+    border-radius: 12px;
+    
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    
+    
+} */
+.menu-item{
+    width: 100%;
+    border-radius: 5px;
+}
+.card .menu-item{
+    text-decoration: none;
+    padding: 10px;
+   
+}
+
+.menu-item .icon{
+   
+left: 13.04%;
+right: 8.34%;
+top: 12.48%;
+bottom: 8.89%;
+height: 29.877838134765625px;
+width: 29.877838134765625px;
+left: 4.95361328125px;
+top: 4.743438720703125px;
+border-radius: 0px;
+gap: 3;
+
+
+}
+
+
+.menu-item p{
+    width: 77px;
+    height: 24px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    /* TextLabel */
+    
+    color: #949494;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    gap: 5;
+
+}
+
+.menu-item .menu-profile{
+    background:  #F7E4FF;
+}
+
+.menu-item:hover{
+    background:  #F7E4FF;
+}
+
+.card-profile{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    height: 819.4594116210938px;
+width: 888.1273193359375px;
+left: 429.8726806640625px;
+top: 166px;
+border-radius: 24px;
+background-color: #ffff;
+
+
+}
+
+.card-profile .bg-profile{
+
+    position: absolute;
+width: 888.13px;
+height: 275.14px;
+left: 429.87px;
+top: 0;
+left: 0;
+
+/* bgLabel */
+
+background: #F7E4FF;
+border-radius: 24px 24px 0px 0px;
+
+}
+
+ .img-profile{
+    width: 249.91px;
+height: 249.91px;
+
+background: url(./assets/gambar-profile.jpeg);
+border: 10px solid #FFFFFF;
+border-radius: 124.953px;
+margin-bottom: 250px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 99999;
+}
+
+.card-profile .des-profile{
+   position: absolute;
+   margin-top: 150px;
+   text-align: center;
+    
+}
+
+.card-profile .des-profile h1{
+
+height: 34px;
+
+/* Head2 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+
+/* Text */
+
+color: #4E424C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.des-profile p{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17.274px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* TextLabel */
+
+color: #949494;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.card-utama{
+   
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: end;
+  
+   
+    
+}
+
+.card-hero{
+    gap: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+  .card-utama  .card-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 194px;
+    width: 185px;
+    border-radius: 12px;
+    padding: 22px 24px 22px 24px;
+ 
+
+    
+    
+}
+ 
+
+/* style awaallllllllllllll login */
+
+.form-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.form-in h3{
+    width: 83px;
+height: 34px;
+
+/* Head2 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+
+/* Text */
+
+color: #4E424C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.form-in .form-label{
+    
+
+/* RegText */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+/* Text */
+
+color: #4E424C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.form-in .form-control{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 32px;
+gap: 10px;
+
+width: 445px;
+height: 55px;
+
+background: #F5F5F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.form-in .btn{
+    background-color: #f7d0f3;
+    padding: 10px 45px;
+    font-weight: 650;
+}
+
+.form-in a{
+    text-decoration: none;
+    color:#CD57FF ;
+}
+/* akhir style login */
+
+
+
+/* awal registerrrrrrrrr */
+.form-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-daftar h3{
+   width:  120px;
+height: 34px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+color: #4E424C;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.form-daftar .form-label{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #4E424C;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.form-daftar .form-control{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 32px;
+gap: 10px;
+width: 445px;
+height: 55px;
+background: #F5F5F5;
+border-radius: 8px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.form-daftar .btn{
+     background-color: #f7d0f3;
+    padding: 10px 45px;
+    font-weight: 650;
+}
+
+/* Akhir registerrrrrrrr */
+
+/* awal terjawbabbbbbbbbbbbbbbbbb */
+
+.card-terjawab{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 55px 75px;
+gap: 40px;
+
+position: absolute;
+width: 1195px;
+height: 966.83px;
+left: 122.5px;
+top: 106px;
+
+background: #FFFFFF;
+box-shadow: 0px 11px 4px rgba(0, 0, 0, 0.08);
+border-radius: 24px;
+
+}
+
+.card-body .terjawab-profile{
+    display: flex;
+    
+}
+
+.card-terjawab .card-body .nama-profile{
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+    
+}
+.terjawab-profile .nama-profile{
+    margin-left: 10px;
+}
+
+
+.card-body .terjawab-profile img{
+    
+    width: 37.99px;
+height: 37.99px;
+
+
+border-radius: 18.9939px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.card-body .nama-profile h3{
+    height: 22px;
+    left: 48.95px;
+    top: 0.53px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.1433px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    /* Text */
+    
+    color: #4E424C;
+}
+
+.card-body  p{
+ 
+
+
+left: 48.95px;
+top: 22.45px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.3937px;
+line-height: 15px;
+
+
+color: #949494;
+}
+
+
+.card-content-terjawab .card-title h3{
+    width: 1099px;
+    height: 34px;
+    
+    /* Head2 */
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    
+    
+    /* Text */
+    
+    color: #4E424C;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-content-terjawab .card-text{
+    width: 1045px;
+height: 108px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20.2273px;
+line-height: 180%;
+
+text-align: justify;
+
+color: #797979;
+
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.card-content-terjawab .like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.card-content-terjawab .hastag {
+    display: flex;
+    
+}
+
+.card-content-terjawab  .icon-terjawab {
+
+    display: flex;
+    justify-content: flex-start;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 9px;
+gap: 14px;
+align-items: center;
+text-align: center;
+
+left: 809.54px;
+
+
+background: #F4F4F4;
+border-radius: 5px;
+    
+}
+
+.card-content-terjawab  .icon-terjawab a {
+   
+   
+   display: flex;
+    color: #CD57FF;
+    text-align: center;
+    text-decoration: none;
+    
+   
+}
+
+.card-content-terjawab  .icon-terjawab .massage-circle{
+    margin-left: 10px;
+    background-color: red;
+}
+.card-content-terjawab .like .hastag a{
+    text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16.1634px;
+line-height: 20px;
+background-color:#CD57FF ;
+color: #CD57FF;
+flex: none;
+order: 0;
+flex-grow: 0;
+background: #F7E4FF;
+border-radius: 8px;
+display: flex;
+
+justify-content: center;
+align-items: center;
+padding: 9px 8px;
+gap: 8.87px;
+}
+
+
+/* akhir terjawabbbbbbbbbb */
+
+.card-comentar{
+    margin-top: 170px;
+    padding: 55px 75px;
+    position: absolute;
+    left: 122.5px;
+}
+.card-comentar .card-mumet{
+    box-sizing: border-box;
+    margin-bottom: 40px;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 75px;
+gap: 24px;
+
+width: 1196px;
+height: 325px;
+
+background: #FFFFFF;
+border: 1px solid #CACACA;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.card-comentar .card-mumet p{
+    width: 1046px;
+height: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20.2273px;
+line-height: 24px;
+text-align: justify;
+
+color: #797979;
+
+
+
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.icon-semua{
+    height: 50px;
+    width: 170px;
+   
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icon-semua .icon-bawah{
+    display: flex;
+padding: 8px 9px;
+gap: 14px;
+
+position: absolute;
+width: 107.73px;
+height: 41px;
+
+
+background: #F4F4F4;
+border-radius: 5px;
+}
+
+.icon-semua .icon-love{
+    
+    left: 180px;
+    display: flex;
+padding: 8px 9px;
+gap: 14px;
+
+position: absolute;
+width: 107.73px;
+height: 41px;
+
+
+background: #F4F4F4;
+border-radius: 5px;
+}
+
+.icon-semua .card-link {
+    text-decoration: none;
+    display: flex;
+    color: #CD57FF;
+}
+
+ .pertanyaan{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 37px;
+
+position: absolute;
+width: 649px;
+height: 748.51px;
+left: 395px;
+top: 138px;
+
+
+}
+
+ .pertanyaan .pertanyaan-logo{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+ }
+
+ .pertanyaan .pertanyaan-logo  h3{
+    
+width: 172.15px;
+height: 47.53px;
+left: 82.83px;
+top: 27.86px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 31.1828px;
+line-height: 38px;
+
+/* purp */
+
+color: #CD57FF;
+ }
+
+ .pertanyaan h4{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+
+/* Text */
+
+color: #4E424C;
+
+ }
+
+ .pertanyaan .form-control{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 32px;
+gap: 10px;
+
+width: 649px;
+height: 55px;
+
+background: #F5F5F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+ }
+
+ .pertanyaan .area{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 18px 32px;
+gap: 10px;
+
+width: 649px;
+height: 161px;
+
+background: #F5F5F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+ }
+
+ .pertanyaan .btn{
+    background-color:#F7E4FF ;
+    font-weight: 700 !important;
+    cursor: pointer;
+   padding: 10px 50px;
+ }
+
+ .semua a .btn{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 14px;
+gap: 10px;
+
+position: absolute;
+width: 148px;
+height: 42px;
+left: 1170px;
+top: 166px;
+
+/* purp */
+
+background: #CD57FF;
+border-radius: 8px;
+ }
+.semua{
+    
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+
+position: absolute;
+width: 908px;
+height: 1027px;
+left: 430px;
+top: 236.49px;
+}
+ .semua .card{
+
+  
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 48px;
+gap: 24px;
+
+width: 908px;
+height: 325px;
+
+background: #FFFFFF;
+/* shadow1 */
+
+box-shadow: 0px 19px 40px rgba(0, 0, 0, 0.08);
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+ }

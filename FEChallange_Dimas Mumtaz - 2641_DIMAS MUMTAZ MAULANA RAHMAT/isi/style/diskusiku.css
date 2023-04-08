@@ -1,0 +1,23 @@
+/* Challenge Dimas Mumtaz */
+.primary-color {
+  color: #c075ea;
+}
+
+.primary-bg {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.like-icon img,
+.comment-icon img {
+  width: 20px;
+}
+/* navbar */
+.bg-pink {
+  background-color: #f7e4ff;
+}
+
+.navbar-logo {
+  height: 80px;
+  width: 250px;
+}

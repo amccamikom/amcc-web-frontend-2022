@@ -1,0 +1,24 @@
+/* Challenge Dimas Mumtaz */
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.button-form {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.daftar {
+  color: #9f00e2;
+}
+
+/* navbar */
+.bg-pink {
+  background-color: #f7e4ff;
+}
+
+.navbar-logo {
+  height: 80px;
+  width: 250px;
+}

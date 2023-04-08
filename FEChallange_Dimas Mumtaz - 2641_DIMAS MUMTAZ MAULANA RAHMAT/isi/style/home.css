@@ -1,0 +1,76 @@
+/* Challenge Dimas Mumtaz */
+
+.add-question:hover {
+  background-color: #d7a0f6;
+}
+
+.add-question {
+  background-color: #c075ea;
+}
+
+.primary-bg {
+  background-color: #f7e4ff;
+}
+
+.menu-profile:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.menu-semua:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.menu-terjawab:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.menu-pending:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.profile-image {
+  height: 250px;
+  margin-bottom: 150px;
+}
+
+.profile-image img {
+  top: 100%;
+  height: 250px;
+  width: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-icon {
+  width: 60px;
+}
+
+.bg-pink {
+  background-color: #f7e4ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin: 0;
+}
+
+.text-ungu {
+  color: #c075ea;
+}
+
+.text-pink {
+  color: #f7e4ff;
+}
+
+.username {
+  font-size: 13px;
+}

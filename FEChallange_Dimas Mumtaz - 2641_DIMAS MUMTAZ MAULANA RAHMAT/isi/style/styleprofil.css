@@ -1,0 +1,46 @@
+/* Challenge Dimas Mumtaz */
+
+.primary-bg {
+  background-color: #f7e4ff;
+}
+
+.menu-profile:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.menu-semua:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.menu-terjawab:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.menu-pending:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.profile-image {
+  height: 250px;
+  margin-bottom: 150px;
+}
+
+.profile-image img {
+  top: 100%;
+  height: 250px;
+  width: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-icon {
+  width: 60px;
+}
+
+.bg-pink {
+  background-color: #f7e4ff;
+}

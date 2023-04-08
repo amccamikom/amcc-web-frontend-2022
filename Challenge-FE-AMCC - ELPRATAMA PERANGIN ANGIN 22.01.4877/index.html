@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disccusion</title>
+    <title>Home</title>
+    <!-- Link Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Link CSS -->
     <link rel="stylesheet" href="style/style.css">
-    <link rel="icon" href="assets/favicon.svg">
-
+    <!-- Link Icon -->
+    <link rel="icon" href="./assets/image/favicon.svg">
 </head>
-
 <body>
-    <!-- navbar start -->
+    <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg">
         <div class="container container-sm">
             <div class="col-10">
@@ -29,69 +29,65 @@
             </button>
             <div class="col-2 navbar-collapse collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item mx-2"><a href="./dicussion.html" class="nav-link">Home</a></li>
+                    <li class="nav-item mx-2"><a href="./index.html" class="nav-link">Home</a></li>
                     <li class="nav-item mx-2"><a href="./details.html" class="nav-link">Diskusiku</a></li>
                     <li class="nav-item mx-2">
                         <a href="./login.html">
-                            <button type="button" class="btn bg-pink">Login</button>       
+                            <button type="button" class="btn bg-pink">Login</button>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- navbar end -->
+    <!-- Navbar End -->
 
     <!-- CONTENT -->
-    <section class="main-content container container-sm py-4">
+    <div class="main-content container container-sm py-4 mt-4">
         <div class="row">
-            <!-- sidebar start -->
+            <!-- Sidebar Start -->
             <div class="sidebar col-lg-3">
-                <div class="card rounded border-0 shadow ">
-                    <div class="card-body d-flex flex-column gap-3 py-5 px-4">
-                        <!-- 1 -->
-                        <a href="./profile.html" class="text-decoration-none">
-                            <div class="d-flex align-items-center rounded p-2 gap-2 menu-profile">
-                                <img src="./assets/image/profileSolid.svg" alt="">
-                                <p class="fs-5 text-secondary">Profil</p>
-                            </div>
-                        </a>
-                        <!-- 2 -->
-                        <a href="#" class="text-decoration-none">
-                            <div class="d-flex align-items-center rounded p-2 gap-2 menu-semua">
-                                <img src="./assets/image/askSolid.svg" alt="">
-                                <p class="fs-5 text-secondary">Semua</p>
-                            </div>
-                        </a>
-
-                        <!-- 3 -->
-                        <a href="#" class="text-decoration-none">
-                            <div class="d-flex align-items-center  rounded p-2 gap-2 menu-terjawab">
-                                <img src="./assets/image/doneSolid.svg" alt="">
-                                <p class="fs-5 text-secondary ">Terjawab</p>
-                            </div>
-                        </a>
-
-                        <!-- 4 -->
-                        <a href="#" class="text-decoration-none">
-                            <div class="d-flex align-items-center rounded p-2 gap-2 menu-pending">
-                                <img src="./assets/image/pendingSolid.svg" alt="">
-                                <p class="fs-5 text-secondary">Pending</p>
-                            </div>
-                        </a>
-                    </div>
+                <div class="card rounded shadow d-flex flex-column gap-xl-3 px-4 py-5 border-0">
+                    <!-- Menu Profile -->
+                    <a href="./profile.html" class="text-decoration-none">
+                        <div class="d-flex align-items-center rounded p-2 gap-2 menu-profile">
+                            <img src="./assets/image/profileSolid.svg" alt="">
+                            <p class="fs-5 text-secondary">Profil</p>
+                        </div>
+                    </a>
+                    <!-- Menu Semua -->
+                    <a href="#" class="text-decoration-none">
+                        <div class="d-flex align-items-center rounded p-2 gap-2 menu-semua">
+                            <img src="./assets/image/askSolid.svg" alt="">
+                            <p class="fs-5 text-secondary">Semua</p>
+                        </div>
+                    </a>
+                    <!-- Menu Terjawab -->
+                    <a href="./details.html" class="text-decoration-none">
+                        <div class="d-flex align-items-center rounded p-2 gap-2 menu-terjawab">
+                            <img src="./assets/image/doneSolid.svg" alt="">
+                            <p class="fs-5 text-secondary">Terjawab</p>
+                        </div>
+                    </a>
+                    <!-- Menu Pending -->
+                    <a href="#" class="text-decoration-none">
+                        <div class="d-flex align-items-center rounded p-2 gap-2 menu-pending">
+                            <img src="./assets/image/pendingSolid.svg" alt="">
+                            <p class="fs-5 text-secondary">Pending</p>
+                        </div>
+                    </a>     
                 </div>
             </div>
-            <!-- sidebar end -->
+            <!-- Sidebar End -->
 
             <div class="content col-sm-9">
+                <!-- Tombol Pertanyaan -->
                 <div class="row container flex justify-content-end mt-4 mt-md-0">
-                    <a href="./discussion-form.html" class="text-decoration-none">
-                        <button class="add-question text-white border-0 rounded py-2bg-ungu col-sm-2 col-4 mb-3">+Pertanyaan</button>
-                    </a>
+                    <a href="./discussion-form.html" class="btn add-question text-white border-0 rounded py-2 col-5 col-sm-3 mb-3 bg-ungu"> +
+                    Pertanyaan</a>
                 </div>
-                <!-- pertanyaan -->
-                <a href="./details.html" class="text-decoration-none">
+                <!-- Kolom Pertanyaan -->
+                <a href="./details.html" class="text-decoration-none">    
                     <div class="card rounded shadow border-0 p-4">
                         <div class="row gap-3 gap-sm-0">
                             <div class="col-sm-3 order-sm-1 order-2">
@@ -105,10 +101,8 @@
                                         <p class="text-secondary username">@fajarmalik</p>
                                     </div>
                                 </div>
-                                <p class="fs-4 fw-bold text-dark">Bagaimana cara untuk initialize decoder untuk dummy
-                                    data</p>
-                                <p class="fs-5 text-secondary mb-sm-1 mb-2">Bagaimana cara untuk inisialisasi data
-                                    "machine" itu untuk
+                                <p class="fs-4 fw-bold text-dark">Bagaimana cara untuk initialize decoder untuk dummy data</p>
+                                <p class="fs-5 text-secondary mb-sm-1 mb-2">Bagaimana cara untuk inisialisasi data "machine" itu untuk
                                     keperluan dummy data</p>
                                 <div class="d-flex flex-sm-row flex-column justify-content-between gap-3">
                                     <div class="d-flex gap-4">
@@ -119,13 +113,11 @@
                                     <div class="d-flex gap-4">
                                         <div class="d-flex gap-2 align-items-center bg-pink rounded px-2">
                                             <img src="assets/image/comment.svg" alt="" width="21">
-                                            <p class="text-ungu py-2 py-sm-1">68 <span
-                                                    class="text-secondary">Komentar</span></p>
+                                            <p class="text-ungu py-2 py-sm-1">68 <span class="text-secondary">Komentar</span></p>
                                         </div>
                                         <div class="d-flex gap-2 align-items-center bg-pink rounded px-2">
                                             <img src="assets/image/like.svg" alt="" width="21">
-                                            <p class="text-ungu py-2 py-sm-1">125 <span
-                                                    class="text-secondary">Like</span></p>
+                                            <p class="text-ungu py-2 py-sm-1">125 <span class="text-secondary">Like</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -133,9 +125,8 @@
                         </div>
                     </div>
                 </a>
-
-                <!-- pertanyaan -->
-                <a href="./details.html" class="text-decoration-none">
+                <!-- Kolom Pertanyaan -->
+                <a href="./details.html" class="text-decoration-none">    
                     <div class="card rounded shadow border-0 p-4 mt-2">
                         <div class="row gap-3 gap-sm-0">
                             <div class="col-sm-3 order-sm-1 order-2">
@@ -149,10 +140,8 @@
                                         <p class="text-secondary username">@fajarmalik</p>
                                     </div>
                                 </div>
-                                <p class="fs-4 fw-bold text-dark">Bagaimana cara untuk initialize decoder untuk dummy
-                                    data</p>
-                                <p class="fs-5 text-secondary mb-sm-1 mb-2">Bagaimana cara untuk inisialisasi data
-                                    "machine" itu untuk
+                                <p class="fs-4 fw-bold text-dark">Bagaimana cara untuk initialize decoder untuk dummy data</p>
+                                <p class="fs-5 text-secondary mb-sm-1 mb-2">Bagaimana cara untuk inisialisasi data "machine" itu untuk
                                     keperluan dummy data</p>
                                 <div class="d-flex flex-sm-row flex-column justify-content-between gap-3">
                                     <div class="d-flex gap-4">
@@ -163,28 +152,24 @@
                                     <div class="d-flex gap-4">
                                         <div class="d-flex gap-2 align-items-center bg-pink rounded px-2">
                                             <img src="assets/image/comment.svg" alt="" width="21">
-                                            <p class="text-ungu py-2 py-sm-1">68 <span
-                                                    class="text-secondary">Komentar</span></p>
+                                            <p class="text-ungu py-2 py-sm-1">68 <span class="text-secondary">Komentar</span></p>
                                         </div>
                                         <div class="d-flex gap-2 align-items-center bg-pink rounded px-2">
                                             <img src="assets/image/like.svg" alt="" width="21">
-                                            <p class="text-ungu py-2 py-sm-1">125 <span
-                                                    class="text-secondary">Like</span></p>
+                                            <p class="text-ungu py-2 py-sm-1">125 <span class="text-secondary">Like</span></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </a>
-
+                </a>   
             </div>
         </div>
-    </section>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-    </script>
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -13,9 +13,8 @@ p,
 a {
   margin: 0;
 }
-
 .primary-color {
-  color : #C075EA;
+  color: #C075EA;
 }
 
 .primary-bg {
@@ -23,38 +22,45 @@ a {
 }
 
 .bg-ungu {
-  background-color: #c075ea;
+  background-color: #C075EA;
 }
 
 .bg-pink {
   background-color: #F7E4FF;
 }
 
-.text-pink{
+.text-pink {
   color: #C759F5;
 }
-.text-pink:hover{
+
+.text-pink:hover {
   color: #9F00E2;
 }
 
 .text-ungu {
-  color: #c075ea;
+  color: #C075EA;
 }
 
-.text-pink {
-  color: #F7E4FF;
+.add-question:hover {
+  background-color: rgba(192, 117, 234, 0.7);
 }
 
 .username {
   font-size: 13px;
 }
 
-/* Sidebar Menu */
-.sidebar img {
-  fill : gray;
+/* icon sizing */
+.like-icon img,
+.comment-icon img {
+  width: 20px;
 }
 
-.register-container{
+/* Sidebar Menu */
+.sidebar img {
+  fill: gray;
+}
+
+.register-container {
   height: 90vh;
 }
 
@@ -62,37 +68,25 @@ a {
   width: 100%;
 }
 
-.menu-profile:hover{
-  color : #C075EA;
-  background-color: #F7E4FF;
+/* Hover Sidebar */
+.nav-item:hover {
+  background-color: #FFF;
 }
 
-.menu-semua:hover{
-    color : #C075EA;
+.menu-profile:hover, 
+.menu-semua:hover,
+.menu-terjawab:hover,
+.menu-pending:hover {
+  color: #C075EA;
   background-color: #F7E4FF;
-}
-.menu-terjawab:hover{
-  color : #C075EA;
-  background-color: #F7E4FF;
-}
-.menu-pending:hover{
-  color : #C075EA;
-  background-color: #F7E4FF;
-}
-
-/* icon sizing */
-
-.like-icon img,
-.comment-icon img {
-  width: 20px;
 }
 
 .profile-image {
-  height: 200px;
+  height: 250px;
   margin-bottom: 150px;
 }
 
-.profile-image img{
+.profile-image img {
   top: 100%;
   height: 250px;
   width: 250px;
@@ -102,4 +96,12 @@ a {
 
 .profile-icon {
   width: 60px;
+}
+
+.daftar {
+  color: #9F00E2;
+}
+
+.daftar:hover {
+  color: #470264;
 }

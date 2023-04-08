@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DiscussMe</title>
+
+    <link rel="stylesheet" href="assets/CSS/login.css">
+    <link rel="icon" href="assets/img/favicon.svg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,300;0,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container ">
+            <di class=" col-10">
+                <a href="#" class="navbar-brand">
+                    <img src="assets//img/logo.png" alt="" width="250" height="80" />
+                </a>
+            </di>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-2 navbar-collapse collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-2"><a href="../index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item  mx-2"><a href="./details.html" class="nav-link">Diskusiku</a></li>
+                    <li class="nav-item  mx-2"><a href="./login.html"><button type="button"
+                                class="btn bg-pink">Login</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar end -->
+    <div class="main-content container d-flex justify-content-center">
+        <div class="row container justify-content-center">
+            <div class="d-flex flex-column text-start col-sm-5">
+                <p class="fs-3 fw-bold my-03">Login.</p>
+                <!-- form start  -->
+                <form action="../index.html">
+                    <!-- email -->
+                    <div class="mb-4 ">
+                        <label for="inputemail" class="form-label fs-5 text-secondary">Email :</label>
+                        <input type="text" class="form-control bg-light p-3" id="inputemail"
+                            aria-describedby="emailInput" placeholder="masukkan email">
+                    </div>
+                    <!-- password -->
+                    <div class="mb-4">
+                        <label for="inputpassword" class="form-label fs-5 text-secondary">Password :</label>
+                        <input type="text" class="form-control bg-light p-3" id="inputpassword"
+                            aria-describedby="passwordInput" placeholder="masukkan password">
+                    </div>
+                    <!-- submit -->
+                    <a href="../index.html"><button type="submit"
+                            class="btn btn-white bg-pink button-form py-2 px-5 fw-bold">Login</button></a>
+                    <h5 class="text">Belum mempunyai akun ? <a href="./register.html"
+                            class="text-d text-decoration-none">Daftar
+                            sekarang</a></h5>
+                </form>
+                <!-- form end -->
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

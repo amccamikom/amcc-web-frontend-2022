@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin: 0;
+}
+
+.bg-ungu {
+  background-color: #c075ea;
+}
+
+.bg-pink {
+  background-color: #f7e4ff;
+}
+
+.text-ungu {
+  color: #c075ea;
+}
+
+.text-pink {
+  color: #f7e4ff;
+}
+
+.username {
+  font-size: 13px;
+}
+
+/* icon sizing */
+
+.like-icon img,
+.comment-icon img {
+  width: 20px;
+}
+
+.profile-image {
+  height: 200px;
+  margin-bottom: 150px;
+  background-color: #f7e4ff;
+}
+
+.profile-image img {
+  top: 100%;
+  height: 250px;
+  width: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-icon {
+  width: 60px;
+}
+
+.nav-profile:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.nav-semua:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.nav-terjawab:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.nav-pending:hover {
+  color: #c075ea;
+  background-color: #f7e4ff;
+}
+
+.item-bubble {
+  background-color: #f7e4ff;
+}
+
+.item-bubble img {
+  width: 60px;
+}

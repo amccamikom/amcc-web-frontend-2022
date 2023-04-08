@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DiscussMe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link rel="icon" href="assets/img/favicon.svg" />
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="col-10">
+                <a href="#" class="navbar-brand">
+                    <img src="assets//img/logo.png" alt="" width="250" height="80" />
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-2 navbar-collapse collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-2"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item  mx-2"><a href="page/details.html" class="nav-link">Diskusiku</a></li>
+                    <li class="nav-item  mx-2"><a href="page/login.html"><button type="button"
+                                class="btn bg-pink">Login</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- navbar end -->
+
+    <!-- CONTENT -->
+    <div class="main-content container py-4">
+        <div class="row">
+            <div class="sidebar col-sm-3">
+                <div class="card-text rounded shadow d-flex flex-column gap-4 px-4 py-5 border-0">
+                    <a href="page/profile.html" class="text-decoration-none">
+                        <div class="mini-card d-flex rounded gap-2 px-1 py-1">
+                            <img src="assets/img/profileSolid.svg" alt="" height="40" />
+                            <p class="fs-5 pt-2 text-secondary">Profil</p>
+                        </div>
+                    </a>
+                    <a href="./index.html" class="text-decoration-none">
+                        <div class="mini-card d-flex rounded gap-2 px-1 py-1">
+                            <img src="assets/img/askSolid.svg" alt="" height="40" />
+                            <p class="fs-5 pt-2 text-secondary">Semua</p>
+                        </div>
+                    </a>
+                    <a href="page/details.html" class="text-decoration-none">
+                        <div class="mini-card d-flex rounded gap-2 px-1 py-1">
+                            <img src="assets/img/doneSolid.svg" alt="" height="40" />
+                            <p class="fs-5 pt-2 text-secondary">Terjawab</p>
+                        </div>
+                    </a>
+                    <a href="./index.html" class="text-decoration-none">
+                        <div class="mini-card d-flex rounded gap-2 px-1 py-1">
+                            <img src="assets/img/pendingSolid.svg" alt="" height="40" />
+                            <p class="fs-5 pt-2 text-secondary">Pending</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="content col-sm-9">
+                <div class="row justify-content-end">
+                    <a href="page/question.html"
+                        class="btn btn-light fw-bold add-question text-white border-0 rounded py-1 px-2 bg-ungu col-sm-2 col-4 my-3"
+                        type="button">+
+                        Pertanyaan</a>
+                </div>
+
+                <!-- card qustion start -->
+                <div class="card rounded shadow border-0 p-4">
+                    <div class="row gap-3 gap-sm-0">
+                        <div class="col-sm-3 order-sm-1 order-2">
+                            <img src="assets/img/code1.png" alt="" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9 order-sm-2 order-1">
+                            <div class="d-flex gap-2">
+                                <img src="assets/img/Profile.png" alt="" width="37" height="37" />
+                                <div>
+                                    <p class="fw-medium">Nanaku</p>
+                                    <p class="text-secondary username">@manis_</p>
+                                </div>
+                            </div>
+                            <p class="fs-4 fw-bold">Bagaimana cara untuk initialize decoder untuk dummy data</p>
+                            <p class="fs-5 text-secondary">Bagaimana cara untuk inisialisasi data "machine" itu untuk
+                                keperluan dummy data</p>
+                            <div class="d-flex flex-sm-row flex-column justify-content-between">
+                                <div class="d-flex gap-4">
+                                    <p class="rounded text-ungu bg-pink p-1">#fetchapi</p>
+                                    <p class="rounded text-ungu bg-pink p-1">#json</p>
+                                    <p class="rounded text-ungu bg-pink p-1">#javascript</p>
+                                </div>
+                                <div class="d-flex gap-4">
+                                    <div class="d-flex gap-2 align-items-center bg-light rounded px-2 py-2">
+                                        <img src="assets/img/comment.svg" alt="" width="21" />
+                                        <p class="text-secondary">68 <span class="text-secondary">Komentar</span></p>
+                                    </div>
+                                    <div class=" d-flex gap-2 align-items-center bg-light  rounded px-2 py-2">
+                                        <img src="assets/img/like.svg" alt="" width="21" />
+                                        <p class="text-secondary ">125 <span class="text-secondary">Like</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card rounded shadow border-0 p-4">
+                    <div class="row gap-3 gap-sm-0">
+                        <div class="col-sm-3 order-sm-1 order-2">
+                            <img src="assets/img/code1.png" alt="" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9 order-sm-2 order-1">
+                            <div class="d-flex gap-2">
+                                <img src="assets/img/Profile.png" alt="" width="37" height="37" />
+                                <div>
+                                    <p class="fw-medium">Nanaku</p>
+                                    <p class="text-secondary username">@manis_</p>
+                                </div>
+                            </div>
+                            <p class="fs-4 fw-bold">Bagaimana cara untuk initialize decoder untuk dummy data</p>
+                            <p class="fs-5 text-secondary">Bagaimana cara untuk inisialisasi data "machine" itu untuk
+                                keperluan dummy data</p>
+                            <div class="d-flex flex-sm-row flex-column justify-content-between">
+                                <div class="d-flex gap-4">
+                                    <p class="rounded text-ungu bg-pink p-1">#fetchapi</p>
+                                    <p class="rounded text-ungu bg-pink p-1">#json</p>
+                                    <p class="rounded text-ungu bg-pink p-1">#javascript</p>
+                                </div>
+                                <div class="d-flex gap-4">
+                                    <div class="d-flex gap-2 align-items-center bg-light rounded px-2">
+                                        <img src="assets/img/comment.svg" alt="" width="21" />
+                                        <p class="text-secondary">68 <span class="text-secondary">Komentar</span></p>
+                                    </div>
+                                    <div class="d-flex gap-2 align-items-center bg-light rounded px-2">
+                                        <img src="assets/img/like.svg" alt="" width="21" />
+                                        <p class="text-secondary">125 <span class="text-secondary">Like</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card rounded shadow border-0 p-4">
+                    <div class="row gap-3 gap-sm-0">
+                        <div class="col-sm-3 order-sm-1 order-2">
+                            <img src="assets/img/code1.png" alt="" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9 order-sm-2 order-1">
+                            <div class="d-flex gap-2">
+                                <img src="assets/img/Profile.png" alt="" width="37" height="37" />
+                                <div>
+                                    <p class="fw-medium">Nanaku</p>
+                                    <p class="text-secondary username">@manis_</p>
+                                </div>
+                            </div>
+                            <p class="fs-4 fw-bold">Bagaimana cara untuk initialize decoder untuk dummy data</p>
+                            <p class="fs-5 text-secondary">Bagaimana cara untuk inisialisasi data "machine" itu untuk
+                                keperluan dummy data</p>
+                            <div class="d-flex flex-sm-row flex-column justify-content-between">
+                                <div class="d-flex gap-4">
+                                    <p class="rounded text-ungu bg-pink p-1">#fetchapi</p>
+                                    <p class="rounded text-ungu bg-pink p-1">#json</p>
+                                    <p class="rounded text-ungu bg-pink p-1">#javascript</p>
+                                </div>
+                                <div class="d-flex gap-4">
+                                    <div class="d-flex gap-2 align-items-center bg-light rounded px-2">
+                                        <img src="assets/img/comment.svg" alt="" width="21" />
+                                        <p class="text-secondary">68 <span class="text-secondary">Komentar</span></p>
+                                    </div>
+                                    <div class="d-flex gap-2 align-items-center bg-light rounded px-2">
+                                        <img src="assets/img/like.svg" alt="" width="21" />
+                                        <p class="text-secondary">125 <span class="text-secondary">Like</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card qustion end -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

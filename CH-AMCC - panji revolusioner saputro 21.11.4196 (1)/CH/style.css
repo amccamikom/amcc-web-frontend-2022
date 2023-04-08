@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+/* Panji Revolusioner Saputro
+21.11.4196  */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  margin: 0;
+}
+
+.primary-color {
+  color : #C075EA;
+}
+
+
+.primary-bg {
+  background-color: #F7E4FF;
+}
+
+.bg-ungu {
+  background-color: #c075ea;
+}
+
+.bg-pink {
+  background-color: #F7E4FF;
+}
+
+.text-pink{
+  color: #C759F5;
+}
+.text-pink:hover{
+  color: #9F00E2;
+}
+
+.text-ungu {
+  color: #c075ea;
+}
+
+.text-pink {
+  color: #F7E4FF;
+}
+
+.username {
+  font-size: 13px;
+}
+
+/* Menu */
+.sidebar img {
+  fill : gray;
+}
+
+.register-container{
+  height: 90vh;
+}
+
+.register-container .row {
+  width: 100%;
+}
+
+.menu-profile:hover{
+  color : #C075EA;
+  background-color: #F7E4FF;
+}
+
+.menu-semua:hover{
+    color : #C075EA;
+  background-color: #F7E4FF;
+}
+.menu-terjawab:hover{
+  color : #C075EA;
+  background-color: #F7E4FF;
+}
+.menu-pending:hover{
+  color : #C075EA;
+  background-color: #F7E4FF;
+}
+
+/* icon */
+
+.like-icon img,
+.comment-icon img {
+  width: 20px;
+}
+
+.profile-image {
+  height: 200px;
+  margin-bottom: 150px;
+}
+
+.profile-image img{
+  top: 100%;
+  height: 250px;
+  width: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-icon {
+  width: 60px;
+}
