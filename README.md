@@ -15,9 +15,9 @@ https://drive.google.com/file/d/12pldTeisEksGn4TnYy3H8uR-2NDmU6mF/view?usp=share
 
 
 ## PEMENANG CHALLENGE🥳
-1. <b> Lorem Ipsum </b>
-2. <b> Lorem Ipsum </b>
-3. <b> Lorem Ipsum </b>
+1. <b> Elpratama Perangin Angin </b>
+2. <b> Ahmad Hawari </b>
+3. <b> Panji Sevolusioner Saputro </b>
 
 
 ## Dokumentasi Pemenang📸
