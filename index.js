@@ -1,3 +1,4 @@
+// Membuat fungsi untuk Comsume API
 function getData() {
   // Membuat Permintaan (Request)
   fetch("https://63e706fd9a66df97f012ae2b.mockapi.io/api-frontend-amcc/card", {
@@ -20,6 +21,7 @@ function getData() {
       jsonData.forEach(function (listQuestion) {
         const cardDiv = document.createElement("div");
         cardDiv.className = "card rounded shadow border-0 p-4 mb-5";
+
         const innerHtml = `
         <div class="row gap-3 gap-sm-0">
           <div class="col-sm-3 order-sm-1 order-2">
@@ -66,4 +68,9 @@ function getData() {
     });
 }
 
+
 getData();
+
+
+
+
